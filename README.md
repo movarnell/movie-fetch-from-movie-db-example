@@ -1,8 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Movie Info Fetcher Example 🎬
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
+
+This project serves as an **example** for fetching and displaying upcoming movie information from [themoviedb.org](https://www.themoviedb.org/).
+
+## 🌈 Color Scheme
+
+- **Primary Background**: `#121212`
+- **Secondary Background**: `#1E1E1E`
+- **Primary Text**: `#FFFFFF`
+- **Secondary Text**: `#B0B0B0`
+- **Accent**: `#FF5733`
+
+## 🛠️ Technologies Used
+
+- React
+- Bootstrap
+- date-fns
+
+## 🚀 How to Run
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run the project: `npm start`
+
