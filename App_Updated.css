@@ -1,0 +1,77 @@
+
+/* New Color Scheme */
+:root {
+    --primary-bg: #121212;
+    --secondary-bg: #1E1E1E;
+    --primary-text: #FFFFFF;
+    --secondary-text: #B0B0B0;
+    --accent: #FF5733;
+    --success: #28A745;
+    --warning: #FFC107;
+    --error: #DC3545;
+}
+
+/* Apply new colors to existing classes or add new classes */
+body {
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+.movie-posters-200 {
+    /* existing styles */
+    box-shadow: 0 0 15px var(--secondary-text);
+}
+
+.movie-posters-100 {
+    /* existing styles */
+    border: 2px solid var(--secondary-text);
+}
+
+/* ... add more classes to use the new color variables ... */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.movie-posters-200 {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 15px black;
+  border-radius: 8px;;
+  margin: 10px;
+  
+}   
+.movie-posters-100 {
+  width: 150px;
+  height: auto;
+  float: left;
+  margin: 1rem;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.spaced-rows {
+  padding-bottom: 3rem;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items:start;
+}
+
+.movie-descriptions {
+  font-family: Arial, Helvetica, sans-serif;
+  text-wrap: pretty;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 400 ;
+}
+
+.divider {
+  border-bottom: 3px double black;
+  margin: .5rem;
+}
+
+.movie-titles {
+  font-size: 2.5rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
